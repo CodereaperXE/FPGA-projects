@@ -1,0 +1,3 @@
+set_io -nowarn ICE_28 28
+set_io -nowarn CLK 35
+set_io -nowarn ICE_SW2          10
