@@ -1,0 +1,4 @@
+set_io -nowarn clk              35
+set_io -nowarn red_led	41
+set_io -nowarn blue_led 40
+set_io -nowarn green_led 39
