@@ -21,7 +21,7 @@
         }
       },
       "cells": {
-        "$specify$1843": {
+        "$specify$1818": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -350,7 +350,7 @@
         }
       },
       "cells": {
-        "$specify$1843": {
+        "$specify$1818": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -420,7 +420,7 @@
         }
       },
       "cells": {
-        "$specify$1843": {
+        "$specify$1818": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -11834,7 +11834,7 @@
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0010001100110011"
+            "LUT_INIT": "1110111111111111"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -13141,7 +13141,7 @@
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "1000000000000000"
+            "LUT_INIT": "0000000010000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -13241,7 +13241,7 @@
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0000000000000001"
+            "LUT_INIT": "0000000000000100"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -13291,7 +13291,7 @@
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "1000000000000000"
+            "LUT_INIT": "0000000000010000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -14927,14 +14927,14 @@
         },
         "data": {
           "hide_name": 0,
-          "bits": [ "1", "0", "1", "0", "1", "0", "1", "0" ],
+          "bits": [ "1", "1", "1", "1", "1", "1", "1", "1" ],
           "attributes": {
             "src": "transmitter.v:52.12-52.16"
           }
         },
         "divisor": {
           "hide_name": 0,
-          "bits": [ "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "bits": [ "0", "1", "0", "0", "0", "1", "1", "1", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "src": "transmitter.v:53.13-53.20"
           }
@@ -15285,7 +15285,7 @@
         },
         "uart_instance.data": {
           "hide_name": 0,
-          "bits": [ "1", "0", "1", "0", "1", "0", "1", "0" ],
+          "bits": [ "1", "1", "1", "1", "1", "1", "1", "1" ],
           "attributes": {
             "hdlname": "uart_instance data",
             "src": "transmitter.v:59.19-59.86|transmitter.v:25.18-25.22"
@@ -15293,7 +15293,7 @@
         },
         "uart_instance.divisor": {
           "hide_name": 0,
-          "bits": [ "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "bits": [ "0", "1", "0", "0", "0", "1", "1", "1", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "uart_instance divisor",
             "src": "transmitter.v:59.19-59.86|transmitter.v:24.19-24.26"
@@ -16027,7 +16027,7 @@
         },
         "uart_instance.uart_baud_gen_instance.divisor": {
           "hide_name": 0,
-          "bits": [ "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "bits": [ "0", "1", "0", "0", "0", "1", "1", "1", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "uart_instance uart_baud_gen_instance divisor",
             "src": "transmitter.v:59.19-59.86|transmitter.v:5.19-5.26|transmitter.v:29.16-29.87"

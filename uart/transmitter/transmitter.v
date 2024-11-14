@@ -52,8 +52,8 @@ module main(input CLK,input ICE_SW2, output ICE_28);
 	reg [7:0] data;
 	reg [23:0] divisor;
 	always @(negedge ICE_SW2) begin
-		data <= 8'b01010101;
-		divisor <= 24'hff;
+		data <= 8'hff;
+		divisor <= 24'd1250;
 	end
 
 	transmitter_uart uart_instance(.clk(CLK),.out(ICE_28),.data(data),.divisor(divisor));
